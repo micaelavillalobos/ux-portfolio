@@ -1,0 +1,37 @@
+body{
+    background-color: #ededf8;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.li_nav{
+    display: inline;
+    padding-right: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.border_b{
+    color: #62437B;
+    border: 2px solid #62437B;
+    border-radius: 100px;
+    padding: 14px 30px;
+}
+
+.border_b:hover{
+    background-color: #62437B;
+    color: #ededf8;
+}
